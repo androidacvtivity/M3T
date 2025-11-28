@@ -717,7 +717,7 @@
 
     //---------------------------------------------
 
-    webform.validators.validate_m3 = function () {
+    webform.validators.m3t = function () {
         var values = Drupal.settings.mywebform.values;
         validate_rule_03064_1(values);
         validate_rule_03064_1_F(values);
